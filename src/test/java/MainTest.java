@@ -25,7 +25,7 @@ public class MainTest {
         String testText = koscheiTheDeathless.getRulesByDeth();
 
         if (!testText.contains(text) && testText.length() <= text.length()) {
-            Assert.fail("Тест провален, не корректная связь бинов. Итоговая фраза не верна.");
+            Assert.fail("Тест провален, некорректная связь бинов. Итоговая фраза не верна.");
         }
     }
 
